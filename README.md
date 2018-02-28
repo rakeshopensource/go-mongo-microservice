@@ -26,7 +26,7 @@ networks:
 $ docker-compose up
 ```
 
-### Verify network
+### verify network
 ```
 $ docker network ls
 NETWORK ID          NAME                DRIVER              SCOPE
@@ -37,7 +37,7 @@ cc1c1ed12914        none                null                local
 
 ```
 
-### Build golang microservice image
+### build golang microservice image
 
 Dockerfile
 ```
@@ -74,7 +74,7 @@ alpine                  latest              3fd9065eaf02        7 weeks ago     
 golang                  1.9.2               138bd936fa29        2 months ago        733MB
 ```
 
-### Run docker microservice image
+### run docker microservice image
 
 
 ```
