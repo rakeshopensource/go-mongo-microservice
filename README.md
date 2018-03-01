@@ -61,7 +61,7 @@ CMD ["./app"]
 ```
 
 ```
-$ docker build --build-arg SOURCE_LOCATION=<GO_FILE_DIR> --no-cache -t go-mongo-microservice:latest
+$ docker build --build-arg SOURCE_LOCATION=<GO_FILE_DIR> --no-cache -t go-mongo-microservice:latest .
 $ docker images
 REPOSITORY              TAG                 IMAGE ID            CREATED             SIZE
 go-mongo-microservice   latest              51246ed02f92        29 minutes ago      13MB
